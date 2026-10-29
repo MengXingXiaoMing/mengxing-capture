@@ -151,7 +151,7 @@ powershell -ExecutionPolicy Bypass -File build\build_offline_wheels.ps1 -Downloa
 
 **一键补齐**
 
-「翻译 → Argos 离线语言包」页面底部有「补齐常用语言包：日 / 韩 / 法 / 德 / 俄」按钮，
+「设置 → Argos 离线语言包」底部有「补齐常用语言包：日 / 韩 / 法 / 德 / 俄」按钮，
 点一次会自动下载所有中转包（约 500 MB），之后这五种语言都能与中文互译。
 
 当前开箱支持：中文 ↔ 英 / 日 / 韩 / 法 / 德 / 俄。
@@ -166,7 +166,7 @@ powershell -ExecutionPolicy Bypass -File build\build_offline_wheels.ps1 -Downloa
 1. 打开 <https://cdn.jsdelivr.net/gh/argosopentech/argospm-index@main/index.json>
 2. 搜索需要的语言对（例如 `"from_code": "ja"` 且 `"to_code": "en"`），复制其中的下载链接
 3. 下载后把 `.argosmodel` 文件拷到离线电脑
-4. 在「翻译 → Argos 离线语言包」点「导入 .argosmodel」即可
+4. 在「设置 → Argos 离线语言包」点「导入 .argosmodel」即可
 
 ### Ollama 本地大模型（可选）
 
